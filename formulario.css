@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: hsl(273, 97%, 12%)	;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    z-index: -10;
+}
+
+#overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    z-index: -5;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    
+}
+
+.loginbox{
+    width: 530px;
+    height: 100%;
+    color: #332424;
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px;
+    position: absolute;
+    transform: translate(-50%,  -50%);
+    box-sizing: border-box;
+    border-radius: 3%;
+    box-shadow: 8px 8px 50px #000;
+}
+h1{
+    color: hsl(220, 5%, 52%);
+    margin: 0;
+    padding: 0 0 0px;
+    text-align: initial;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+    font-size: 13px;
+}
+ 
+.loginbox input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.loginbox input[type="text"], textarea{
+    border: none;
+    border-bottom: 2px solid hsl(210, 4%, 9%);
+    background: #bdc3c7;
+    outline: none;
+    font-size: 30px;
+    opacity: 100;
+    color: #0c0a0a;
+    width: 100%;
+}
+
+.loginbox input[type="text"]{
+    height: 30px;
+}
+
+.loginbox textarea{
+    font-family: 'Open Sans', sans-serif;
+    height: 150px;
+}
+
+
+.loginbox input[type="button"]{
+    padding: 10px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b2bbba;
+    color: hwb(240 4% 95%);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.loginbox input[type="button"]:hover {
+    cursor: pointer;
+    background: hsl(180, 10%, 64%);
+    color: hsl(240, 6%, 13%);
+    
+}
+
+.loginbox a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.loginbox a:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+#text-account {
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.4;
+}
+
+#create-account: hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
